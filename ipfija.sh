@@ -1,3 +1,7 @@
+# Configuración de una ip fija
+# Formato:
+# sh ipfija.sh interface ip máscara gateway dns
+
 if [ $# -ne 5 ]; then
 	echo "Error en parámetros"
 	echo "sh ipfija.sh interface ip máscara gateway dns"
